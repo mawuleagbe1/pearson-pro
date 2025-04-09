@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="/image/favicon.png" type="favicon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://font.googleapis.com/css2? family=Poppins:wght@100;200;400;600;700&display=swap"
+    rel="stylesheet">
+    <title>Tourism</title>
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <div class="logo"> DI BTEC LEVEL 3</div>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="Elmina.html">ABOUT</a></li>
+                    <li><a href="gallery.html">GALLERY</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()" ></i>
+        </nav>
+        <div class="text-box">
+            <h1>TOURISM IN GHANA</h1>
+            <P>There are many tourist sites in Ghana such as Wli waterfalls, Aburi Botanical Garden,
+                Kakum National Park, Cape Coast Castle, <br> Elmina Castle and many more but we will explore more on 
+                Elmina Castle.
+            </P>
+            <!-- <a href="" class=" hero-btn">Visit Us To know More </a> -->
+        </div>
+    </section>
+
+    <section class="elmina">
+        <h1>Elmina Castle</h1>
+        <div class="about_section">
+            <div class="image_section">
+                <img src="/image/Elmina 1.jpg" alt="About Us" class="about_img">
+            </div>
+            <div class="content_section">
+                    <div class="tag_section">
+                        <h2 class="tag_title">About Elmina</h2>
+                        <div class="tag_indicator">
+                        </div>
+                    </div>
+                    <p class="about_desc">
+                        Elmina Castle, fortified castle in Elmina, Ghana, that is thought to be the oldest 
+                        surviving European building in Africa south of the Sahara. Built in 1482 by the Portuguese 
+                        to protect the gold trade, Elmina Castle later became a major center of the transatlantic slave trade.
+                    </p>
+                    <section class="elmina">
+                        <a href="Elmina.html" class="hero-btn">Know More</a>
+                    </section>
+            </div>
+        </div>
+    </section>
+    <section class="site">
+        <h1>GALLERY</h1>
+        <p>Slave dungeons were underground or enclosed chambers used by European traders and colonizers to hold enslaved Africans before they were forcibly transported across the Atlantic. These dungeons were located within slave castles and forts built along the West African coast during the 15th to 19th centuries.</p>
+        <div class="row">
+            <div class="campus-col">
+                <img src="/image/torture room.jpg" alt="">
+                <div class="layer">
+                    <h3>TORTURE ROOM</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="/image/female dungle.jpg" alt="">
+                <div class="layer">
+                    <h3>FEMALE DUNGEON</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="/image/male dungeon.webp" alt="">
+                <div class="layer">
+                    <h3> MALE DUNGEON</h3>
+                </div>
+            </div>
+        </div>
+        <section class="gall">
+            <a href="gallery.html" class="lly">View Gallery</a>
+        </section>
+    </section>
+    
+    <section class="cta">
+        <h1>Contact Us For More Information</h1>
+        <a href="contact.html" class="hero-btn">Contact US</a>
+    </section>
+    
+    
+    <footer class="footer">
+        <div class="left-area">
+            <h2 class="h2">Contact</h2>
+            <ul class="box">
+                <li>kulekejunior421@gmail.com</li>
+                <li>East Legon, Accra</li>
+                <li>+233 548953231</li>
+
+            </ul>
+        </div>
+        <ul class="right-area">
+            <li class="link-area">
+
+                <ul class="box h-box">
+                <h2 class="h2"> Useful link</h2>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                </ul>
+            </li> 
+        </ul>
+        <div class="footer-bottom">
+            <img src="/image/ministry.png" alt="logo">
+            <p>All Right decieved by &copy;Mawuleagbe 2025</p>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        var navLinks =document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+
+
+</body>
+</htm>

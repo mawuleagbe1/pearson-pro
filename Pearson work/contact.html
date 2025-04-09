@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="/image/favicon.png" type="favicon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://font.googleapis.com/css2? family=Poppins:wght@100;200;400;600;700&display=swap"
+    rel="stylesheet">
+    <title>Tourism</title>
+</head>
+<body class="boo">
+    <nav class nav>
+        <div class="logo"> DI BTEC LEVEL 3</div>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="gallery.html">GALLERY</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()" ></i>
+    </nav>
+    <section class="container">
+        <h2 class="sectionHeader">Contact Us</h2>
+        <h1 class="heading">Get In Touch</h1>
+        <!-- <p class="para">Lorem ipsum dolor sit amet conse</p> -->
+        <div class="contactform">
+            <form action="a">
+                <!-- <h1 class="sub-heading">Need Support</h1> -->
+                <!-- <p class="para para2">
+                   Contact us for a quote, help to join   
+                </p> -->
+
+                <input type="text" class="input" placeholder="your name">
+                <input type="text" class="input" placeholder="your email">
+                <input type="text" class="input" placeholder="your subject">
+                <textarea class="input"cols="30" rows="10"></textarea>
+                <input type="submit" class="input submit" value="Send message">
+
+            </form>
+            <div class="map-container">
+                <div class="map8g"></div>
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3970.4157065157115!2d-0.16324250000005053!3d5.652848500000009!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf9d5c6197bc49%3A0x63f3a9eb1b2b9837!2sDTI%20Campus%20Accra%20Ghana!5e0!3m2!1sen!2sgh!4v1743867372008!5m2!1sen!2sgh" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                </div>
+            </div>
+        </div>
+        <div class="contactmethod">
+            <div class="method">
+                <i class="fa fa-location contacticon"></i>
+                <article class="text">
+                    <h1 class="sub">Location</h1>
+                    <p class="para">East Legon Mempeasem</p>
+                </article>
+            </div>
+            <div class="method">
+                <i class="fa fa-envelope"></i>
+                <article class="text">
+                    <h1 class="sub">Email</h1>
+                    <p class="para">kulekejunior421@gmail.com</p>
+                </article>
+            </div>
+            <div class="method">
+                <i class="fa fa-phone "></i>
+                <article class="text">
+                    <h1 class="sub">Phone</h1>
+                    <p class="para">+233 548 953 231</p>
+                </article>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="footer">
+        <div class="left-area">
+            <h2 class="h2">Contact</h2>
+            <ul class="box">
+                <li>kulekejunior421@gmail.com</li>
+                <li>East Legon, Accra</li>
+                <li>+233 548953231</li>
+
+            </ul>
+        </div>
+        <ul class="right-area">
+            <li class="link-area">
+
+                <ul class="box h-box">
+                <h2 class="h2"> Useful link</h2>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Elmina.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                </ul>
+            </li> 
+        </ul>
+        <div class="footer-bottom">
+            <img src="/image/ministry.png" alt="logo">
+            <p>All Right decieved by &copy;Mawuleagbe 2025</p>
+        </div>
+    </footer>
+
+
+
+
+    <script>
+        var navLinks =document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
